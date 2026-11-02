@@ -1,0 +1,93 @@
+{
+  "version": "v1.1",
+  "baseline": "tests/fixtures/v08_level50.json",
+  "stages": [
+    {
+      "levels": "01～10",
+      "reference_goal_percent": 92.0,
+      "note": "目标百分比为可见场面策略模拟的校准尺度，不是真人成功率；关卡1保持原目标。"
+    },
+    {
+      "levels": "11～20",
+      "reference_goal_percent": 93.5,
+      "note": "目标百分比为可见场面策略模拟的校准尺度，不是真人成功率；关卡1保持原目标。"
+    },
+    {
+      "levels": "21～30",
+      "reference_goal_percent": 95.0,
+      "note": "目标百分比为可见场面策略模拟的校准尺度，不是真人成功率；关卡1保持原目标。"
+    },
+    {
+      "levels": "31～40",
+      "reference_goal_percent": 96.5,
+      "note": "目标百分比为可见场面策略模拟的校准尺度，不是真人成功率；关卡1保持原目标。"
+    },
+    {
+      "levels": "41～50",
+      "reference_goal_percent": 98.0,
+      "note": "目标百分比为可见场面策略模拟的校准尺度，不是真人成功率；关卡1保持原目标。"
+    },
+    {
+      "levels": "51～60",
+      "reference_goal_percent": 98.0,
+      "minimum_goal": 28000,
+      "note": "新增关卡目标按500分档校准，参照可见場面策略完成任务的得分，不是真人通过率；前50关保持。"
+    },
+    {
+      "levels": "61～70",
+      "reference_goal_percent": 98.15,
+      "minimum_goal": 28000,
+      "note": "新增关卡目标按500分档校准，参照可见場面策略完成任务的得分，不是真人通过率；前50关保持。"
+    },
+    {
+      "levels": "71～80",
+      "reference_goal_percent": 98.3,
+      "minimum_goal": 28000,
+      "note": "新增关卡目标按500分档校准，参照可见場面策略完成任务的得分，不是真人通过率；前50关保持。"
+    },
+    {
+      "levels": "81～90",
+      "reference_goal_percent": 98.45,
+      "minimum_goal": 28000,
+      "note": "新增关卡目标按500分档校准，参照可见場面策略完成任务的得分，不是真人通过率；前50关保持。"
+    },
+    {
+      "levels": "91～100",
+      "reference_goal_percent": 98.6,
+      "minimum_goal": 28000,
+      "note": "新增关卡目标按500分档校准，参照可见場面策略完成任务的得分，不是真人通过率；前50关保持。"
+    },
+    {
+      "levels": "101～110",
+      "reference_goal_percent": 98.6,
+      "minimum_goal": 30000,
+      "note": "新增关卡继续采用已有高难组合；目标按500分档校准，不进一步压缩手感或疯狂加速。参考得分不是真人通过率；前100关保持。"
+    },
+    {
+      "levels": "111～120",
+      "reference_goal_percent": 98.6,
+      "minimum_goal": 30000,
+      "note": "新增关卡继续采用已有高难组合；目标按500分档校准，不进一步压缩手感或疯狂加速。参考得分不是真人通过率；前100关保持。"
+    },
+    {
+      "levels": "121～130",
+      "reference_goal_percent": 98.6,
+      "minimum_goal": 30000,
+      "note": "新增关卡继续采用已有高难组合；目标按500分档校准，不进一步压缩手感或疯狂加速。参考得分不是真人通过率；前100关保持。"
+    },
+    {
+      "levels": "131～140",
+      "reference_goal_percent": 98.6,
+      "minimum_goal": 30000,
+      "note": "新增关卡继续采用已有高难组合；目标按500分档校准，不进一步压缩手感或疯狂加速。参考得分不是真人通过率；前100关保持。"
+    },
+    {
+      "levels": "141～150",
+      "reference_goal_percent": 98.6,
+      "minimum_goal": 30000,
+      "note": "新增关卡继续采用已有高难组合；目标按500分档校准，不进一步压缩手感或疯狂加速。参考得分不是真人通过率；前100关保持。"
+    }
+  ],
+  "usage": "设计与校准记录；游戏直接读取levels/level_xx.json，编辑此记录不会改变关卡。",
+  "preserved_stage_hashes": "tests/fixtures/v10_level_hashes.json"
+}

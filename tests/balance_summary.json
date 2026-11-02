@@ -1,0 +1,92 @@
+{
+  "plan100": {
+    "wins": 103,
+    "score_failures": 45,
+    "overflow_failures": 2
+  },
+  "space100": {
+    "wins": 89,
+    "score_failures": 60,
+    "overflow_failures": 1
+  },
+  "largest150": {
+    "wins": 0,
+    "score_failures": 130,
+    "overflow_failures": 20
+  },
+  "plan150": {
+    "wins": 45,
+    "score_failures": 96,
+    "overflow_failures": 9
+  },
+  "space150": {
+    "wins": 27,
+    "score_failures": 108,
+    "overflow_failures": 15
+  },
+  "largest250": {
+    "wins": 0,
+    "score_failures": 87,
+    "overflow_failures": 63
+  },
+  "plan250": {
+    "wins": 5,
+    "score_failures": 124,
+    "overflow_failures": 21
+  },
+  "space250": {
+    "wins": 1,
+    "score_failures": 112,
+    "overflow_failures": 37
+  },
+  "random350": {
+    "wins": 0,
+    "score_failures": 45,
+    "overflow_failures": 105
+  },
+  "first500": {
+    "wins": 0,
+    "score_failures": 47,
+    "overflow_failures": 103
+  },
+  "plan_jitter1": {
+    "wins": 13,
+    "score_failures": 125,
+    "overflow_failures": 12
+  },
+  "plan_jitter2": {
+    "wins": 20,
+    "score_failures": 121,
+    "overflow_failures": 9
+  },
+  "plan_jitter3": {
+    "wins": 21,
+    "score_failures": 119,
+    "overflow_failures": 10
+  },
+  "plan_jitter4": {
+    "wins": 24,
+    "score_failures": 117,
+    "overflow_failures": 9
+  },
+  "space_jitter1": {
+    "wins": 13,
+    "score_failures": 129,
+    "overflow_failures": 8
+  },
+  "space_jitter2": {
+    "wins": 11,
+    "score_failures": 124,
+    "overflow_failures": 15
+  },
+  "space_jitter3": {
+    "wins": 12,
+    "score_failures": 119,
+    "overflow_failures": 19
+  },
+  "space_jitter4": {
+    "wins": 9,
+    "score_failures": 125,
+    "overflow_failures": 16
+  }
+}

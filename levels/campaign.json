@@ -1,0 +1,5 @@
+{
+  "version": "v1.1",
+  "level_count": 150,
+  "notes": "保留v1.0全部1～100关，新增101～150关。增加151时，新增level_151.json并把level_count改为151。"
+}
