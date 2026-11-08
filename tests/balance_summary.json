@@ -1,92 +1,92 @@
 {
   "plan100": {
-    "wins": 103,
-    "score_failures": 45,
-    "overflow_failures": 2
+    "wins": 143,
+    "score_failures": 53,
+    "overflow_failures": 4
   },
   "space100": {
-    "wins": 89,
-    "score_failures": 60,
-    "overflow_failures": 1
+    "wins": 114,
+    "score_failures": 77,
+    "overflow_failures": 9
   },
   "largest150": {
     "wins": 0,
-    "score_failures": 130,
-    "overflow_failures": 20
+    "score_failures": 162,
+    "overflow_failures": 38
   },
   "plan150": {
-    "wins": 45,
-    "score_failures": 96,
-    "overflow_failures": 9
+    "wins": 52,
+    "score_failures": 134,
+    "overflow_failures": 14
   },
   "space150": {
-    "wins": 27,
-    "score_failures": 108,
-    "overflow_failures": 15
+    "wins": 32,
+    "score_failures": 145,
+    "overflow_failures": 23
   },
   "largest250": {
     "wins": 0,
-    "score_failures": 87,
-    "overflow_failures": 63
+    "score_failures": 104,
+    "overflow_failures": 96
   },
   "plan250": {
-    "wins": 5,
-    "score_failures": 124,
-    "overflow_failures": 21
+    "wins": 6,
+    "score_failures": 150,
+    "overflow_failures": 44
   },
   "space250": {
     "wins": 1,
-    "score_failures": 112,
-    "overflow_failures": 37
+    "score_failures": 141,
+    "overflow_failures": 58
   },
   "random350": {
     "wins": 0,
-    "score_failures": 45,
-    "overflow_failures": 105
+    "score_failures": 55,
+    "overflow_failures": 145
   },
   "first500": {
     "wins": 0,
-    "score_failures": 47,
-    "overflow_failures": 103
+    "score_failures": 57,
+    "overflow_failures": 143
   },
   "plan_jitter1": {
-    "wins": 13,
-    "score_failures": 125,
-    "overflow_failures": 12
+    "wins": 19,
+    "score_failures": 160,
+    "overflow_failures": 21
   },
   "plan_jitter2": {
-    "wins": 20,
-    "score_failures": 121,
-    "overflow_failures": 9
+    "wins": 23,
+    "score_failures": 162,
+    "overflow_failures": 15
   },
   "plan_jitter3": {
-    "wins": 21,
-    "score_failures": 119,
-    "overflow_failures": 10
+    "wins": 23,
+    "score_failures": 155,
+    "overflow_failures": 22
   },
   "plan_jitter4": {
-    "wins": 24,
-    "score_failures": 117,
-    "overflow_failures": 9
+    "wins": 27,
+    "score_failures": 149,
+    "overflow_failures": 24
   },
   "space_jitter1": {
     "wins": 13,
-    "score_failures": 129,
-    "overflow_failures": 8
-  },
-  "space_jitter2": {
-    "wins": 11,
-    "score_failures": 124,
+    "score_failures": 172,
     "overflow_failures": 15
   },
+  "space_jitter2": {
+    "wins": 14,
+    "score_failures": 158,
+    "overflow_failures": 28
+  },
   "space_jitter3": {
-    "wins": 12,
-    "score_failures": 119,
-    "overflow_failures": 19
+    "wins": 16,
+    "score_failures": 152,
+    "overflow_failures": 32
   },
   "space_jitter4": {
-    "wins": 9,
-    "score_failures": 125,
-    "overflow_failures": 16
+    "wins": 12,
+    "score_failures": 163,
+    "overflow_failures": 25
   }
 }

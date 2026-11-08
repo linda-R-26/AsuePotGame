@@ -27,7 +27,7 @@ for name, digest in json.loads((out / "fixtures/v09_level_hashes.json").read_tex
 # All100 existing stages are frozen for this expansion.
 for name, digest in json.loads((out / "fixtures/v10_level_hashes.json").read_text()).items():
     assert hashlib.sha256((levels / name).read_bytes()).hexdigest() == digest, f"Changed v1.0 stage {name}"
-assert {p.name for p in levels.glob("level_*.json")} == {f"level_{i:02d}.json" for i in range(1, 151)}
+assert {p.name for p in levels.glob("level_*.json")} == {f"level_{i:02d}.json" for i in range(1, 201)}
 profiles = [
     ("plan100", 100, 3, 1, 0), ("space100", 100, 4, 1, 0),
     ("largest150", 150, 0, 1, 0), ("plan150", 150, 3, 1, 0),
@@ -42,7 +42,7 @@ for name, delay, policy, seed, jitter in profiles:
     run = subprocess.run([str(binary), str(levels), str(delay), str(policy),
                           str(seed), str(jitter)], capture_output=True, text=True, check=True)
     result = list(csv.DictReader(io.StringIO(run.stdout)))
-    assert [int(r["level"]) for r in result] == list(range(1, 151))
+    assert [int(r["level"]) for r in result] == list(range(1, 201))
     assert all(int(r["target"]) > 0 for r in result)
     by_profile[name] = result
     summary[name] = {"wins": sum(r["state"] == "4" for r in result),
@@ -58,9 +58,9 @@ with (out / "balance_results.csv").open("w", encoding="utf-8", newline="") as f:
 # Keep the complete diagnostic result even when a new target needs tuning.
 # Every stage must have a non-instant path using only visible information.
 normal = [name for name, *_ in profiles[:8]]
-missing = [i+1 for i in range(150) if not any(by_profile[name][i]["state"] == "4" for name in normal)]
+missing = [i+1 for i in range(200) if not any(by_profile[name][i]["state"] == "4" for name in normal)]
 assert not missing, f"No timed path for levels {missing}"
-print("PASS: all150 have a timed visible-board path; 18 profiles / 2700 trials. "
+print("PASS: all200 have a timed visible-board path; 18 profiles / 3600 trials. "
       f"random350 wins={summary['random350']['wins']}; first500 wins={summary['first500']['wins']}; "
       f"plan150 wins={summary['plan150']['wins']}; space150 wins={summary['space150']['wins']}. "
       "Not a human win-rate measurement.")
